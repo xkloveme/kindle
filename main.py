@@ -12,7 +12,7 @@ session.post(url,headers = headers,data = data)
 # 登录后，我们先打卡
 response = session.post('https://wheremylife.cn/1.0/user/resetBook',headers = headers)
 active = {
-    "active": true,
+    "active": True,
     "hour": 0,
     "targetEmails": [
         "8618538715282_f0IpcJ@kindle.cn",
